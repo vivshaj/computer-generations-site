@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap_Task</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- mdbootstrap cdn -->
+
+</head>
+<body style="width:100%;background-color:lightgray ;font-family: 'Roboto', sans-serif;">
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-primary" aria-label="First navbar example">
+        <div class="container-fluid">
+
+          <a class="navbar-brand px-0 pb-2 fw-normal" href="#">Computer Generation</a>
+          <button class="navbar-toggler collapsed border border-1 border-light px-10 py- 5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="navbar-collapse collapse" id="navbarsExample01" >
+            <ul class="navbar-nav me-auto mb-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-disabled="true">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" data-bs-toggle="dropdown" aria-expanded="false">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+
+
+    <!-- Button trigger modal -->
+    <div class="container bg-light p-0 my-5 d-flex flex-column align-items-center justify-content-center" style="width:90%;height:400px;gap:20px;">
+        <p class="m-0 p-0 pb-4 text-center fs-5 fw-normal">Computer Generation</p>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+            CG-1
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+            CG-2
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+            CG-3
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+            CG-4
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
+            CG-5
+        </button>
+
+    </div>
+    
+  
+    <!-- Modal CG-1-->
+    <div class="modal fade"  id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
+    <div class="modal-dialog w-50"  >
+      <div class="modal-content" >
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel1">First Generation</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img class="mb-3 border border-1 border-secondary"  src="https://3.bp.blogspot.com/-Z6F1wctHBJ4/XDWUX96LXvI/AAAAAAAACts/WDLs6-VuCXQyssXvEOtE2-eYWX6ne_z4gCLcBGAs/s1600/Photo_1547015138034.png" style="width:100%; height:250px !important;" alt="">
+            <p class="p-0 m-0" style="text-align: justify;font-size: 14px;">
+                The vacuum tube was invented in 1906 by an electrical engineer named Lee De Forest (1873–1961). During the first half of the twentieth century, it was the fundamental technology that was used to construct radios, televisions, radar, X-ray machines, and a wide variety of other electronic devices. It is also the primary technology associated with the first generation of computing machines.
+                The first operational electronic general-purpose computer, named the ENIAC (Electronic Numerical Integrator and Computer), was built in 1943 and used 18,000 vacuum tubes. 
+                <!--It was constructed with government funding at the University of Pennsylvania's Moore School of Engineering, and its chief designers were J. Presper Eckert, Jr. (1919–1995) and John W. Mauchly (1907–1980). -->
+            </p>
+            
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Know More</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <!-- Modal CG-2-->
+    <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel2">Second Generation</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img class="mb-3 border border-1 border-secondary"  src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ7daURonzZZHc4D_j_D_j_hQ2T21pJLKLPifji9FZksjpth55c" style="width:100%; height:250px;" alt="">
+            <p class="p-0 m-0" style="text-align: justify;font-size: 14px;">
+                As commercial interest in computer technology intensified during the late 1950s and 1960s, the second generation of computer technology was introduced—based not on vacuum tubes but on transistors .John Bardeen (1908–1991), William B. Shockley (1910–1989), and Walter H. Brattain (1902–1987) invented the transistor at Bell Telephone Laboratories in the mid-1940s. By 1948 it was obvious to many that the transistor would probably replace the vacuum tube in devices such as radios, television sets, and computers.
+            </p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Know More</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <!-- Modal CG-3-->
+    <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel3">Third Generation</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img class="mb-3 border border-1 border-secondary" src="https://static.javatpoint.com/computer/images/third-generation-of-computer.jpg" style="width:100%; height:250px;" alt="">
+          <p class="p-0 m-0" style="text-align: justify;font-size: 14px;">
+            The third generation of computer technology was based on integrated circuit technology and extended from approximately 1964 to 1970. Jack Kilby (1923–) of Texas Instruments and Robert Noyce (1927–1990) of Fairchild Semiconductor were the first to develop the idea of the integrated circuit in 1959. The integrated circuit is a single device that contains many transistors.
+
+            Arguably the most important machine built during this period was the IBM System/360. Some say that this machine single handedly introduced the third generation. 
+            <!--It was not simply a new computer but a new approach to computer design. It introduced a single computer architecture over a range or family of devices. In other words, a program designed to run on one machine in the family could also run on all of the others. IBM spent approximately $5 billion to develop the System/360.-->
+
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Know More</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <!-- Modal CG-4-->
+    <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel4">Fourth Generation</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--  <img class="mb-3 border border-1 border-secondary" src="https://www.physics-and-radio-electronics.com/computer-basics/generations-of-computer/images/fourth-generation.jpg" style="width:100%; height:250px;" alt="">-->
+          
+          <img class="mb-3 border border-1 border-secondary" src="https://media.licdn.com/dms/image/D5612AQFY0eD-escfbQ/article-cover_image-shrink_600_2000/0/1661583519121?e=2147483647&v=beta&t=Bv3L5mfFjILaQy5wpLGfAVkoTMksMDjyAbsyIckP_Uw" style="width:100%; height:250px;" alt="">
+            <p class="p-0 m-0" style="text-align: justify;font-size: 14px;">
+                The fourth generation of computer technology is based on the microprocessor. Microprocessors employ Large Scale Integration (LSI) and Very Large Scale Integration (VLSI) techniques to pack thousands or millions of transistors on a single chip.
+
+                The Intel 4004 was the first processor to be built on a single silicon chip. It contained 2,300 transistors. Built in 1971, it marked the beginning of a generation of computers whose lineage would stretch to the current day.
+                
+                <!--In 1981 IBM selected the Intel Corporation as the builder of the microprocessor (the Intel 8086) for its new machine, the IBM-PC. This new computer was able to execute 240,000 additions per second. Although much slower than the computers in the IBM 360 family, this computer cost only $4,000 in today's dollars! This price/performance ratio caused a boom in the personal computer market.-->
+  
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Know More</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <!-- Modal CG-5-->
+    <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel5" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel5">Fifth Generation</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img class="mb-3 border border-1 border-secondary" src="https://1.bp.blogspot.com/-plFFvEmgbVE/YBhDVqLwztI/AAAAAAAABEU/RE23EJLhI-cJahb0VXTcx9BdjUUTAe3AgCLcBGAsYHQ/s16000/Fifth%2BGeneration%2Bof%2BComputer.png" style="width:100%; height:250px;" alt="">
+            <p class="p-0 m-0" style="text-align: justify;font-size: 14px;">
+                The Fifth Generation of computers, spanning from the 1980s to the present, is characterized by advancements in Very Large Scale Integration (VLSI), Artificial Intelligence (AI), and networking technologies. This generation marks a departure from the traditional focus on raw processing power to an emphasis on parallel processing, AI, and distributed computing. Supercomputers will be used in scientific and engineering calculations and simulations. Database machines and present mainframe computers will be networked in order to organise worldwide information systems.
+  
+            </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Know More</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white bg-primary">
+          
+          <!--style="background-color: #1c2331"-->
+          
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-between p-4  bg-primary" >
+             
+             <!--style="background-color: #6351ce"-->
+             
+      <!-- Left -->
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">Company name</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto bg-primary"
+                style="width: 60px;  height: 2px"
+                />
+                <!-- background-color: #7c4dff; -->
+            <p>
+              Here you can use rows and columns to organize your footer
+              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">MDBootstrap</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">MDWordPress</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">BrandFlow</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Bootstrap Angular</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Become an Affiliate</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         ></a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    
+    
+
+    
+</body>
+</html>
